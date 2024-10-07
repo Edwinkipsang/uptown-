@@ -9,6 +9,10 @@
     margin-left:30px ;
     // background-image: url("images/fernando-andrade-0YjpwEpjBeA-unsplash.jpg")
 }
+body{
+    background-image: url("../../../images/patrick-tomasso-AjgebwgNrU4-unsplash.jpg");
+
+}
 .dishes{
     @include flex(center,center);
     gap:250px;
@@ -75,4 +79,7 @@ ul{
 }
 #i{
     color:$primary-color
+}
+.pr{
+    margin-left:70px
 }
