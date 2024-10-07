@@ -1,0 +1,7 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.about-us{
+    @include flex(center ,center);
+    gap:30%;
+    margin-top: 30px;
+}

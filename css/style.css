@@ -193,3 +193,13 @@ ul li:hover {
   margin-right: 20px;
   padding-top: 15%;
 }
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30%;
+  margin-top: 30px;
+}
