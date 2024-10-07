@@ -203,3 +203,23 @@ ul li:hover {
   gap: 30%;
   margin-top: 30px;
 }
+
+.how {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+#h3 {
+  margin-left: 20%;
+}
+
+#o {
+  background-color: orange;
+  border: 5px solid orange;
+  border-radius: 50%;
+  margin-left: 30%;
+}
