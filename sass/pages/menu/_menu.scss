@@ -28,29 +28,29 @@ ul{
     width:100%;
     margin-left: 2%;
 }
-.section{background-color: $primary-color;
+// .section{background-color: $primary-color;
     // background-image: url("../../../images/backgroud\ 1.jpg");
     
-}
+// }
 #img{
     margin-top: 30px;
     margin-left: 30px;
-    border-radius: 50%;
+    // border-radius: 50%;
     border:2px solid $black
 }
 
 .icon{
-    margin-left: 30%;
+    margin-left: 45%;
     padding-top:30px ;
     
 }
 .fa-star{
     &:hover{
-        color: $white;
+        color: $primary-color;
     }
 }
 #p{
-    margin-left: 30%;
+    margin-left: 45%;
     padding-top: 20px;
 }
 .about-content{
@@ -65,6 +65,14 @@ ul{
 //     border:2px solid $white ;
 //     margin-top: 30px;
 // }
-.list{
-
+#paragraph{
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.header{
+    font-size: 32px;
+    font-weight: bold;
+}
+#i{
+    color:$primary-colo
 }
