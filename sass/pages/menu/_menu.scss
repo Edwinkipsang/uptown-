@@ -9,10 +9,10 @@
     margin-left:30px ;
     // background-image: url("images/fernando-andrade-0YjpwEpjBeA-unsplash.jpg")
 }
-body{
-    background-image: url("../../../images/patrick-tomasso-AjgebwgNrU4-unsplash.jpg");
+// body{
+//     background-image: url("../../../images/patrick-tomasso-AjgebwgNrU4-unsplash.jpg");
 
-}
+// }
 .dishes{
     @include flex(center,center);
     gap:250px;
@@ -40,7 +40,8 @@ ul{
     margin-top: 30px;
     margin-left: 30px;
     border-radius: 50%;
-    border:2px solid $black
+    border:2px solid $black;
+    margin-right: 20px;
 }
 
 .icon{
@@ -49,6 +50,7 @@ ul{
     
 }
 .fa-star{
+    color:$black;
     &:hover{
         color: $primary-color;
     }
@@ -82,4 +84,11 @@ ul{
 }
 .pr{
     margin-left:70px
+}
+.about-section{
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 30vh;
+    margin-top: 20px;
+    
 }

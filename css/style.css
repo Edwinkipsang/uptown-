@@ -21,24 +21,10 @@ li {
   margin: 0 auto;
 }
 
-#image {
-  margin-left: 30px;
-  width: 10%;
-  border-radius: 30%;
-}
-
-#ft {
-  color: #000;
-}
-
 .menu-content {
   font-family: "Oswald", sans-serif;
   padding-top: 3%;
   margin-left: 30px;
-}
-
-body {
-  background-image: url("../../../images/patrick-tomasso-AjgebwgNrU4-unsplash.jpg");
 }
 
 .dishes {
@@ -66,6 +52,7 @@ ul li:hover {
   margin-left: 30px;
   border-radius: 50%;
   border: 2px solid #000;
+  margin-right: 20px;
 }
 
 .icon {
@@ -73,6 +60,9 @@ ul li:hover {
   padding-top: 30px;
 }
 
+.fa-star {
+  color: #000;
+}
 .fa-star:hover {
   color: orange;
 }
@@ -112,4 +102,11 @@ ul li:hover {
 
 .pr {
   margin-left: 70px;
+}
+
+.about-section {
+  border: 2px solid red;
+  border-radius: 20px;
+  height: 30vh;
+  margin-top: 20px;
 }
