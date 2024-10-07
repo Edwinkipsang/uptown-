@@ -1,0 +1,11 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+ .about-contact{
+    @include flex(center,center)
+ }
+ .about-main{
+    @include flex(center,center)
+ }
+ #support{
+    @include flex(center,center)
+ }
