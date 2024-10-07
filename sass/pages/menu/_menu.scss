@@ -7,4 +7,58 @@
     font-family: "Oswald", sans-serif;
     padding-top: 3%;
     margin-left:30px ;
+    // background-image: url("images/fernando-andrade-0YjpwEpjBeA-unsplash.jpg")
 }
+.dishes{
+    @include flex(center,center);
+    gap:150px;
+    padding-top:30px;
+    margin-right:30%
+    
+
+}
+ul{
+    li{
+        &:hover{
+            color:$primary-color
+        }
+    }
+}
+.hr{
+    width:70%;
+    margin-left: 2%;
+}
+.section{background-color: $primary-color;
+    // background-image: url("../../../images/backgroud\ 1.jpg");
+    
+}
+#img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon{
+    margin-left: 50%;
+    padding-top:30px ;
+    
+}
+.fa-star{
+    &:hover{
+        color: $white;
+    }
+}
+#p{
+    margin-left: 50%;
+    padding-top: 20px;
+}
+.about-content{
+    @include flex(center, center);
+    gap:30px
+}
+.about-items{
+    margin-left: 30px;
+    background-color: $white;
+}
+// #all{
+//     border:2px solid $white ;
+//     margin-top: 30px;
+// }
