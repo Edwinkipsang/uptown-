@@ -11,9 +11,9 @@
 }
 .dishes{
     @include flex(center,center);
-    gap:150px;
+    gap:250px;
     padding-top:30px;
-    margin-right:30%
+    margin-right:7%
     
 
 }
@@ -25,7 +25,7 @@ ul{
     }
 }
 .hr{
-    width:70%;
+    width:100%;
     margin-left: 2%;
 }
 .section{background-color: $primary-color;
@@ -35,9 +35,12 @@ ul{
 #img{
     margin-top: 30px;
     margin-left: 30px;
+    border-radius: 50%;
+    border:2px solid $black
 }
+
 .icon{
-    margin-left: 50%;
+    margin-left: 30%;
     padding-top:30px ;
     
 }
@@ -47,11 +50,11 @@ ul{
     }
 }
 #p{
-    margin-left: 50%;
+    margin-left: 30%;
     padding-top: 20px;
 }
 .about-content{
-    @include flex(center, center);
+    @include flex(space-between, center);
     gap:30px
 }
 .about-items{
@@ -62,3 +65,6 @@ ul{
 //     border:2px solid $white ;
 //     margin-top: 30px;
 // }
+.list{
+
+}
