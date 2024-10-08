@@ -66,11 +66,24 @@ ul li:hover {
   margin-left: 2%;
 }
 
+.btn-add {
+  background: transparent;
+  color: wheat;
+  border: 2px solid orange;
+  cursor: pointer;
+  padding: 10px;
+}
+.btn-add:hover {
+  background-color: wheat;
+  color: black;
+  border: 2px solid #000;
+}
+
 .icon {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .fa-star {
@@ -142,7 +155,7 @@ ul li:hover {
 
 @media screen and (max-width: 600px) {
   #all {
-    width: 100%;
+    width: 50%;
     flex-direction: column;
   }
   .about-content {
