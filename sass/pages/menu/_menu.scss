@@ -2,17 +2,11 @@
 @use "../../utilities/mixins" as *;
 
 .menu-content{
-    // background-color: $primary-color;
-    // color:$white;
-    font-family: "Oswald", sans-serif;
-    padding-top: 3%;
-    margin-left:30px ;
-    // background-image: url("images/fernando-andrade-0YjpwEpjBeA-unsplash.jpg")
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
-// body{
-//     background-image: url("../../../images/patrick-tomasso-AjgebwgNrU4-unsplash.jpg");
 
-// }
 .dishes{
     @include flex(center,center);
     gap:250px;
@@ -23,6 +17,8 @@
 }
 ul{
     li{
+        cursor: pointer;
+        color: white;
         &:hover{
             color:$primary-color
         }
@@ -32,45 +28,40 @@ ul{
     width:100%;
     margin-left: 2%;
 }
-// .section{background-color: $primary-color;
-    // background-image: url("../../../images/backgroud\ 1.jpg");
-    
-// }
+
 #img{
-    margin-top: 30px;
-    margin-left: 30px;
-    border-radius: 50%;
-    border:2px solid $black;
-    margin-right: 20px;
+    
+    // border:2px solid $black;
+    
 }
 
 .icon{
-    margin-left: 45%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
     padding-top:30px ;
     
 }
 .fa-star{
     color:$black;
+    cursor: pointer;
     &:hover{
         color: $primary-color;
     }
 }
-#p{
-    margin-left: 45%;
-    padding-top: 20px;
-}
+// #p{
+//     margin-right: 45%;
+//     padding-top: 20px;
+// }
 .about-content{
     @include flex(space-between, center);
-    gap:30px
+    // gap:30px
 }
-.about-items{
-    margin-left: 30px;
-    background-color: $white;
+ .about-items{
+margin-top: 1em;
+     
 }
-// #all{
-//     border:2px solid $white ;
-//     margin-top: 30px;
-// }
+
 #paragraph{
    margin-bottom: 10px;
    margin-top: 10px;
@@ -86,9 +77,29 @@ ul{
     margin-left:70px
 }
 .about-section{
-    border: 2px solid red;
-    border-radius: 20px;
-    height: 30vh;
-    margin-top: 20px;
+align-items: center;
+justify-content: center;
+text-align: center;
+text-align: center;
+
     
+}
+#p{
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top:20px ;
+}
+
+#all{
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    // border-radius: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,0.4);
 }
