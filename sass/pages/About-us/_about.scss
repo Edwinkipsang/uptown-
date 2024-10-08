@@ -115,3 +115,19 @@ gap:3em;
   align-items: center;
   text-align: center;
 }
+@media screen and (max-width:600px){
+ .about-us{
+  flex-direction: column;  
+ }  
+//  .work-how{
+//   flex-direction: column;  
+//  }
+ .we-work{
+   gap:30%;
+   
+}
+.how{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
