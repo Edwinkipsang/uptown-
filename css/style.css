@@ -138,9 +138,8 @@ ul li:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-image: url("../../../images/Live Tech delivers On Demand Technical Support help.jpeg");
-  height: 50vh;
-  background-repeat: no-repeat;
+  background-color: orange;
+  height: 20vh;
 }
 
 .about-main {
@@ -149,6 +148,7 @@ ul li:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: 100vh;
 }
 
 #support {
@@ -177,6 +177,8 @@ ul li:hover {
   margin-top: 10px;
   margin-bottom: 20px;
   padding-right: 50px;
+  background-color: black;
+  color: grey;
 }
 
 #input-id {
@@ -185,6 +187,8 @@ ul li:hover {
   margin-bottom: 20px;
   padding-right: 200px;
   padding-bottom: 100px;
+  background-color: black;
+  color: grey;
 }
 
 #contact {
@@ -203,6 +207,11 @@ ul li:hover {
   flex-wrap: nowrap;
   margin-top: 20px;
   gap: 10px;
+}
+
+.about-main {
+  background-color: black;
+  margin-bottom: 50px;
 }
 
 #k {
@@ -224,19 +233,32 @@ ul li:hover {
 
 #cc {
   margin-bottom: 30px;
+  color: orange;
+  margin-top: -200px;
 }
 
 #pp {
   margin-top: 5px;
   margin-bottom: 10px;
+  color: white;
 }
 
-.contact-us {
-  margin-top: 10%;
+.way-to-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  margin-bottom: 20px;
 }
 
-#d {
-  margin-right: 20%;
+.our {
+  color: white;
+}
+
+.reach {
+  color: orange;
 }
 
 .about-us {
