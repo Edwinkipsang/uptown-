@@ -232,7 +232,9 @@ ul li:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 10%;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 #h3 {
@@ -264,7 +266,7 @@ ul li:hover {
 }
 
 .made {
-  margin-left: 40%;
+  margin-left: 35%;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -292,5 +294,21 @@ ul li:hover {
 }
 
 .mission {
-  margin-top: -250px;
+  margin-top: -150px;
+  margin-right: -300px;
+}
+
+#q {
+  font-size: 40px;
+}
+
+#u {
+  font-size: 35px;
+}
+
+.geography {
+  color: orange;
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
