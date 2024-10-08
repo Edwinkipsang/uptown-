@@ -117,6 +117,9 @@ ul li:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  background-image: url("../../../images/Live Tech delivers On Demand Technical Support help.jpeg");
+  height: 50vh;
+  background-repeat: no-repeat;
 }
 
 .about-main {
@@ -208,7 +211,6 @@ ul li:hover {
 }
 
 .contact-us {
-  background-image: url("../../../images/unit.jpg");
   margin-top: 10%;
 }
 

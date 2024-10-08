@@ -1,7 +1,10 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
  .about-contact{
-    @include flex(center,center)
+    @include flex(center,center);
+    background-image: url("../../../images/Live\ Tech\ delivers\ On\ Demand\ Technical\ Support\ help.jpeg")
+   ;height: 50vh;
+   background-repeat: no-repeat;
  }
  .about-main{
     @include flex(center,center)
@@ -68,7 +71,7 @@ margin-bottom: 30px;
    margin-bottom: 10px;
  }
  .contact-us{
-   background-image: url("../../../images/unit.jpg");
+   
    margin-top: 10%;
  }
  #d{
