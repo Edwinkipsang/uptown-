@@ -194,6 +194,28 @@ ul li:hover {
   padding-top: 15%;
 }
 
+#m {
+  margin-left: 8%;
+}
+
+#cc {
+  margin-bottom: 30px;
+}
+
+#pp {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-us {
+  background-image: url("../../../images/unit.jpg");
+  margin-top: 10%;
+}
+
+#d {
+  margin-right: 20%;
+}
+
 .about-us {
   display: flex;
   justify-content: center;
