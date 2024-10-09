@@ -437,7 +437,29 @@ ul li:hover {
     gap: 30%;
   }
   .how {
-    margin-left: 10px;
-    margin-right: 10px;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .about-images img {
+    width: 100px;
+  }
+  .mission-images img {
+    width: 200px;
+  }
+  .mission p {
+    font-size: 11px;
+  }
+  #made-food p {
+    font-size: 10px;
+  }
+  #place-located li {
+    font-size: 10px;
+  }
+  .Headquaters h2 {
+    font-size: 12px;
+  }
+  .work-done {
+    background: rgba(0, 0, 0, 0.6);
   }
 }
