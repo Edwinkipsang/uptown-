@@ -67,11 +67,13 @@ ul li:hover {
 }
 
 .btn-add {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.4);
   color: wheat;
   border: 2px solid orange;
   cursor: pointer;
-  padding: 10px;
+  padding: 3px 10px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .btn-add:hover {
   background-color: wheat;
@@ -123,7 +125,10 @@ ul li:hover {
 }
 
 .pr {
-  margin-left: 70px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1em;
 }
 
 .about-section {
@@ -155,7 +160,7 @@ ul li:hover {
 
 @media screen and (max-width: 600px) {
   #all {
-    width: 50%;
+    width: 227.5px;
     flex-direction: column;
   }
   .about-content {
